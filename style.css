@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.poke-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.pokemon-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 1.7rem;
+  justify-content: space-between;
+}
+
+.poke-box {
+  width: 250px;
+  background-color: aliceblue;
+  border-radius: 35px;
+  margin: 20px;
+}
+
+.poke-box img {
+  width: 100%;
+}
