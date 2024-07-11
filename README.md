@@ -1,2 +1,2 @@
 # Pokedex-Traning-Project
-Html/CSS/JS
+Html/CSS/JS/API
